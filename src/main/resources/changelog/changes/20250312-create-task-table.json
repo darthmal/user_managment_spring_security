@@ -1,0 +1,76 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "2025-03-12_1",
+        "author": "Salam O",
+        "comment": "Create tasks table",
+        "changes": [
+          {
+            "createTable": {
+              "tableName": "tasks",
+              "columns": [
+                {
+                  "column": {
+                    "name": "id",
+                    "type": "bigint",
+                    "autoIncrement": true,
+                    "constraints": {
+                      "nullable": false,
+                      "primaryKey": true
+                    }
+                  }
+                },
+                {
+                  "column": {
+                    "name": "title",
+                    "type": "varchar(255)",
+                    "constraints": {
+                      "nullable": false
+                    }
+                  }
+                },
+                {
+                  "column": {
+                    "name": "description",
+                    "type": "varchar(1000)",
+                    "constraints": {
+                      "nullable": true
+                    }
+                  }
+                },
+                {
+                  "column": {
+                    "name": "status",
+                    "type": "varchar(50)",
+                    "constraints": {
+                      "nullable": false
+                    }
+                  }
+                },
+                {
+                  "column": {
+                    "name": "created_at",
+                    "type": "timestamptz",
+                    "constraints": {
+                      "nullable": false
+                    }
+                  }
+                },
+                {
+                  "column": {
+                    "name": "updated_at",
+                    "type": "timestamptz",
+                    "constraints": {
+                      "nullable": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
