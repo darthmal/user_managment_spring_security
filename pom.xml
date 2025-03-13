@@ -23,7 +23,7 @@
         <instancio-junit.version>2.11.0</instancio-junit.version>
         <liquibase-core.version>4.22.0</liquibase-core.version>
         <hypersistence-utils-hibernate-60.version>3.5.1</hypersistence-utils-hibernate-60.version>
-        <sonar.projectKey>till-service</sonar.projectKey>
+        <sonar.projectKey>spring-security</sonar.projectKey>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
         <sonar.login>admin</sonar.login>
         <sonar.projectName>test</sonar.projectName>
