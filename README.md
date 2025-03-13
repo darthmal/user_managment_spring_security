@@ -88,7 +88,7 @@ Access Swagger UI at http://localhost:8080/swagger-ui.html
 - Test the endpoints
 ## Security Rules
 ### Authentication:
-- All endpoints except /api/v1/auth/** require authentication
+- All endpoints except /api/v1/auth/** require authentsication
 - JWT tokens expire after 24 hours
 ### Authorization:
 - Regular users can only access their own data
@@ -102,7 +102,6 @@ Access Swagger UI at http://localhost:8080/swagger-ui.html
 - email (Unique)
 - password (BCrypt encrypted)
 - role (USER/ADMIN)
-- enabled
 - created_at
 - updated_at
 
